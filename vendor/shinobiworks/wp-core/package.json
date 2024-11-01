@@ -1,0 +1,13 @@
+{
+  "name": "wp-core",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "composer test"
+  },
+  "author": "Shinobi Works",
+  "license": "ISC"
+}

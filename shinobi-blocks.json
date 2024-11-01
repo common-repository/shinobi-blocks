@@ -1,0 +1,33 @@
+{
+	"name": "shinobi-blocks",
+	"blocks": {
+		"how-to": {
+			"blockType": "shinobi-blocks/how-to",
+			"InnerBlocks": {
+				"how-to-step": {
+					"blockType": "shinobi-blocks/how-to-step"
+				},
+				"how-to-section": {
+					"blockType": "shinobi-blocks/how-to-section",
+					"InnerBlocks": {
+						"how-to-step": {
+							"blockType": "shinobi-blocks/how-to-step"
+						}
+					}
+				}
+			}
+		},
+		"faq": {
+			"blockType": "shinobi-blocks/faq",
+			"InnerBlocks": {
+				"faq-item": {
+					"blockType": "shinobi-blocks/faq-item"
+				}
+			}
+		}
+	},
+	"color": {
+		"primary": "#1b95e0",
+		"secondary": "#4facfe"
+	}
+}

@@ -1,0 +1,41 @@
+[
+    {
+        "name": "shinobiworks/wp-core",
+        "version": "0.5.0",
+        "version_normalized": "0.5.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/shinobiworks/core.git",
+            "reference": "26d40f92fba88adf0a4771c46f9d68cff5f57251"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/shinobiworks/core/zipball/26d40f92fba88adf0a4771c46f9d68cff5f57251",
+            "reference": "26d40f92fba88adf0a4771c46f9d68cff5f57251",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "dealerdirect/phpcodesniffer-composer-installer": "^0.6",
+            "phpcompatibility/phpcompatibility-wp": "*",
+            "phpunit/phpunit": "7.*"
+        },
+        "time": "2020-05-23T00:25:01+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Shinobi_Works\\WP\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Shinobi Works",
+                "email": "support@shinobiworks.com"
+            }
+        ]
+    }
+]

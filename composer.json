@@ -1,0 +1,27 @@
+{
+	"name": "shinobiworks/shinobi-blocks",
+	"authors": [
+		{
+			"name": "Shinobi Works",
+			"email": "support@shinobiworks.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Shinobi_Blocks\\": ""
+		}
+	},
+	"require": {
+		"php": ">=5.6",
+		"shinobiworks/wp-core": "*"
+	},
+	"require-dev": {
+		"wptrt/wpthemereview": "^0.2.1",
+		"phpunit/phpunit": "7.*",
+		"phpcompatibility/phpcompatibility-wp": "*",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.6"
+	},
+	"scripts": {
+		"test": "phpunit"
+	}
+}
